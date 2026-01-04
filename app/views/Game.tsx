@@ -14,6 +14,8 @@ export const Game: React.FC = () => {
           alt='a group playing the game'
           src='/img/culture_700p.webp'
           srcSet='/img/culture_350p.webp 350w, /img/culture_700p.webp 700w, /img/culture_1400p.webp 1400w'
+          width={2158}
+          height={1057}
         />
         <h2>The Game</h2>
         <div>
@@ -36,6 +38,8 @@ export const Game: React.FC = () => {
             alt='preparation phase'
             src='/img/preparation_360p.webp'
             srcSet='/img/preparation_360p.webp 360w, /img/preparation_720p.webp 720w'
+            width={795}
+            height={488}
           />
         </OnScrollFocus>
         <OnScrollFocus rootMargin={rootMargin}>
@@ -48,6 +52,8 @@ export const Game: React.FC = () => {
             alt='culture phase'
             src="/img/culture1_360p.webp"
             srcSet='/img/culture1_360p.webp 360w, /img/culture1_720p.webp 720w'
+            width={786}
+            height={946}
           />
         </OnScrollFocus>
         <OnScrollFocus rootMargin={rootMargin}>
@@ -65,8 +71,10 @@ export const Game: React.FC = () => {
           <img
             className={classes.calendar}
             alt='calendar phase'
-            src='/img/calendar_360p.webp'
+            src='/img/calendar_720p.webp'
             srcSet='/img/calendar_360p.webp 360w, /img/calendar_720p.webp 720w'
+            width={5230}
+            height={5230}
           />
         </OnScrollFocus>
       </div>

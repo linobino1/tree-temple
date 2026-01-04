@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
     <footer id='footer' className={`${theme.bg} ${classes.container}`}>
       <h3 className={classes.cta}>Let's play!</h3>
       <p className={classes.email}>
-        <img src='/img/letter.svg' alt='letter' />
+        <img src='/img/letter.svg' alt='letter' width={179} height={165}/>
         <a href='mailto:stephanie@treetemple.org'>stephanie@treetemple.org</a>
       </p>
       <div className={classes.signup}>Sign up for the Tree Temple newsletter:</div>
@@ -30,6 +30,8 @@ export const Footer: React.FC = () => {
           key={index}
           src={`/img/colors/${color}_80p.webp`}
           alt={color}
+          width={191}
+          height={191}
         />
       ))}
       </div>
@@ -48,7 +50,7 @@ export const Footer: React.FC = () => {
         >legal notice</NavLink>
         <Link
           to={'https://www.instagram.com/the_tree_temple_casabranca/'} target='_blank' rel='noreferrer noopener' aria-label='instagram link'
-        ><img src='/img/instagram.svg' alt='instagram logo' className={classes.instagram} /></Link>
+        ><img src='/img/instagram.svg' alt='instagram logo' className={classes.instagram} width={800} height={800} /></Link>
       </nav>
       <div className={classes.copyright}>
         Stephanie Geihs {year} all rights reserved

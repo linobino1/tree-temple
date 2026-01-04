@@ -12,6 +12,8 @@ export const Story: React.FC = () => {
         src='/img/storyteller_1000p.webp'
         srcSet='/img/storyteller_500p.webp 500w, /img/storyteller_1000p.webp 1000w'
         sizes='(max-width: 500px) 100vw, 500px'
+        width={1000}
+        height={678}
       />
       <div className={classes.text}>
         <h1>The Mission of the Tree Temple</h1>

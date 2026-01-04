@@ -42,6 +42,8 @@ export const Landing: React.FC = () => {
           className={classes.logo}
           src="/img/logo.png"
           alt="the tree temple logo"
+          width={539}
+          height={526}
         />
       </a>
     </section>

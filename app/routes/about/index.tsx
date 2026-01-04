@@ -29,7 +29,7 @@ export default function Index() {
               <img className={classes.linkedin} src="/img/linkedin_black.png" alt='linkedin logo'/>
             </a>
           </p> */}
-          <img className={classes.portrait} src="/img/stephanie.jpg" alt="portrait" />
+          <img className={classes.portrait} src="/img/stephanie.jpg" alt="portrait" width={2048} height={1536} />
         </section>
 
         <section id="contact">

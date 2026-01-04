@@ -14,6 +14,8 @@ export const BoardImg: React.FC<Props> = ({ className }) => {
           alt='temple phase'
           src="/img/board.webp"
           srcSet='/img/board_300p.webp 300w, /img/board_600p.webp 600w'
+          width={1222}
+          height={1004}
         />
       </div>
     </div>

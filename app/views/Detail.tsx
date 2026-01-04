@@ -13,8 +13,8 @@ export const Detail: React.FC = () => {
             Designing and growing a Tree Temple garden from living trees with Living Architecture
           </div>
           <div className={classes.images}>
-            <img className={classes.plantingGirls} src="/img/plantingGirls.png" alt=''/>
-            <img className={classes.fluteGirls} src="/img/fluteGirls.png" alt=''/>
+            <img className={classes.plantingGirls} src="/img/plantingGirls.png" alt='' width={740} height={182} />
+            <img className={classes.fluteGirls} src="/img/fluteGirls.png" alt='' width={1073} height={378} />
           </div>
           <div className={classes.text}>
             <p>
@@ -36,8 +36,10 @@ export const Detail: React.FC = () => {
           <img
             className={classes.treetemple}
             alt='tree temple'
-            src='/img/calendar_770p.webp'
+            src='/img/baumhaus.webp'
             srcSet='/img/baumhaus_450p.webp 450w,/img/baumhaus_770p.webp 770w,  /img/baumhaus_900p.webp 900w, /img/baumhaus_1540p.webp 1540w'
+            width={2320}
+            height={1099}
           />
           <div className={classes.text}>
             <p>

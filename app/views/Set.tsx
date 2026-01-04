@@ -65,6 +65,8 @@ export const Set: React.FC = () => {
                 alt={key}
                 src={`/img/cards/${key}_100p.webp`}
                 srcSet={`/img/cards/${key}_100p.webp 100w, /img/cards/${key}_200p.webp 200w, /img/cards/${key}_400p.webp 400w`}
+                width={949}
+                height={1315}
               />
             </li>
           )
@@ -73,6 +75,8 @@ export const Set: React.FC = () => {
           <img
             alt='logo'
             src='/img/logo.png'
+            width={539}
+            height={526}
           />
         </li>
       </ul>
